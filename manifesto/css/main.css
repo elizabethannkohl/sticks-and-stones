@@ -1,0 +1,451 @@
+/***base styles***/
+
+.full-width{
+	width: 1200px;
+}
+
+body{
+	margin: auto;
+}
+
+
+#header-portfolio{
+	background: url('../img/succulents-header.jpg');
+	background-size: cover;
+	height: 379px;
+}
+
+#header-portfolio h1{
+	font-family: 'Roboto Slab', sans-serif;
+	color: #775076;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+#header-portfolio h2{
+	font-family: 'Roboto', sans-serif;
+	color: #13546c;
+	font-size: 46px;
+	font-weight: normal;
+	line-height: 20px;
+	padding-left: 100px;
+}
+
+#header-portfolio h3{
+	font-family: 'Roboto', sans-serif;
+	color: #13546c;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 100px;
+}
+
+#header-portfolio a{
+	font-family: 'Roboto Slab', sans-serif;
+	color: #775076;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/**basic sturcture**/
+
+div{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body{
+	width: 610px;
+	margin: auto;
+}
+
+section{
+	background: url('http://www.roundedhexagon.com/wp-content/uploads/2018/08/free-low-poly-2-395x525.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container{
+	width: 610px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 3px black solid;
+}
+
+p{
+	font-family: 'Alice', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+.one-left{
+	width: 290px;
+	height: 150px;
+	float: left;
+}
+
+.one-left p{
+	font-size: 48px;
+	letter-spacing: 3px;
+
+}
+
+.one-left span{
+	font-size: 120px;
+	line-height: 90px;
+}
+
+.one-right{
+	width: 320px;
+	height: 150px;
+	float: left;
+}
+
+.one-right p{
+	font-size: 28px;
+	letter-spacing: 3.5px;
+}
+
+.one-right span{
+	font-size: 25px;
+	letter-spacing: 0px;
+}
+
+#left-arrow{
+	margin-top: 2%;
+}
+
+.one-bottom{
+	width: 610px;
+	height: 80px;
+	clear: both;
+}
+
+.one-bottom p{
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+
+#first-line{
+	letter-spacing: 2px;
+}
+
+.one-bottom span{
+	font-size: 26px;
+	letter-spacing: 0px;
+}
+
+.two-left{
+	width: 245px;
+	height: 130px;
+	float: left;
+}
+
+.two-left p{
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+.two-left span{
+	font-size: 50px;
+	letter-spacing: 7px;
+}
+
+#love{
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.two-middle{
+	width: 35px;
+	height: 130px;
+	float: left;
+}
+
+#up-arrow-stubby{
+	height: 130px;
+	width: 35px;
+}
+
+.two-right{
+	width: 330px;
+	height: 130px;
+	float: left;
+}
+
+.two-right p{
+	font-size: 18px;
+}
+
+#love-because{
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+#acceptance{
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+#human{
+	font-size: 35px;
+	letter-spacing: 5px;
+	line-height: 35px;
+}
+
+#large-arrow-line{
+	width: 330px;
+}
+
+.two-bottom{
+	width: 610px;
+	height: 90px;
+	clear: both;
+}
+
+.two-bottom p{
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+
+#first-right-arrow{
+	margin-left: 2%;
+}
+
+#second-right-arrow{
+	margin-right: 2%;
+}
+
+.three-left{
+	width: 305px;
+	height: 45px;
+	float: left;
+}
+
+.three-left p{
+	font-size: 25px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	margin-top: 2px;
+}
+
+.three-left span{
+	font-size: 14px;
+	letter-spacing: 0px;
+}
+
+.three-right{
+	width: 305px;
+	height: 45px;
+	float: left;
+}
+
+.three-right p{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.three-right span{
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.three-bottom{
+	width: 610px;
+	height: 90px;
+	clear: both;
+}
+
+.three-bottom p{
+	font-size: 22px;
+}
+
+#up-down-arrows{
+	width: 610px;
+}
+
+.four-left{
+	width: 200px;
+	height: 90px;
+	float: left;
+}
+
+.four-left p{
+	font-size: 20px;
+}
+
+.four-left span{
+	font-size: 24px;
+	letter-spacing: 0px;
+}
+
+
+#small-arrow-line{
+	width: 200px;
+}
+
+.four-middle-1{
+	width: 35px;
+	height: 90px;
+	float: left;
+}
+
+#down-arrow{
+	width: 35px;
+}
+
+.four-middle-2{
+	width: 170px;
+	height: 90px;
+	float: left;
+}
+
+.four-middle-2 p{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.four-middle-2 span{
+	font-size: 30px;
+	letter-spacing: 3px;
+	line-height: 20px;
+}
+
+.four-middle-3{
+	width: 35px;
+	height: 90px;
+	float: left;
+}
+
+#up-arrow{
+	width: 35px;
+}
+
+.four-right{
+	width: 170px;
+	height: 90px;
+	float: left;
+}
+
+.four-right p{
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.four-right span{
+	font-size: 75px;
+	line-height: 50px;
+	letter-spacing: 2px;
+}
+
+.four-bottom{
+	width: 610px;
+	height: 8px;
+	clear: both;
+}
+
+#solid-line{
+	margin-left: 2%;
+	height: 8px;
+	width: 580px;
+	margin-bottom: 2px;
+	margin-top: 1px;
+}
+
+.five-left{
+	width: 390px;
+	height: 65px;
+	float: left;
+}
+
+.five-left p{
+	font-size: 66px;
+	letter-spacing: 1px;
+	line-height: 65px;
+}
+
+.five-right{
+	width: 220px;
+	height: 65px;
+	float: left;
+}
+
+.five-right p{
+	font-size: 15px;
+}
+
+.five-right span{
+	font-size: 20px;
+}
+
+#following-arrows{
+	width: 220px;
+}
+
+.five-bottom{
+	width: 610px;
+	height: 30px;
+	clear: both;
+}
+
+.five-bottom p{
+	font-size: 27px;
+	letter-spacing: 0px;
+}
+
+.six-left{
+	width: 190px;
+	height: 100px;
+	float: left;
+	margin-bottom: 2px;
+}
+
+.six-left p{
+	font-size: 57px;
+	line-height: 50px;
+}
+
+.six-left span{
+	font-size: 65px;
+}
+
+.six-right{
+	width: 420px;
+	height: 100px;
+	float: left;
+	margin-bottom: 2px;
+}
+
+.six-right p{
+	font-size: 38px;
+	line-height: 35px;
+	letter-spacing: 0px;
+}
+
+#large-arrow-line-2{
+	width: 420px;
+	margin-top: 5px;
+}
+
+.footer{
+	width: 610px;
+	height: 20px;
+	clear: both;
+}
+
+h4{
+	font-family: 'Special Elite', cursive;
+	font-weight: normal;
+	text-align: center;
+	font-size: 14px;
+}

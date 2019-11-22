@@ -1,0 +1,213 @@
+/***BASE STYLES***/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	width: 1200px;
+	margin: auto;
+}
+
+.full-width{
+	width: 1200px;
+}
+
+.half-width{
+	width: 600px;
+	
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h4{
+	font-size: 24pt;
+	font-weight: bold;
+	padding-left: 25px;
+	line-height: 0px;
+	margin-top: 12px;
+}
+
+p{
+	font-size: 18pt;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 25px;
+}
+
+
+/***HEADER***/
+
+#header{
+	background: url('../img/succulents.jpg');
+	background-size: cover;
+	height: 800px;
+	margin-top: -100px;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 60pt;
+	font-weight: bold;
+	padding-top: 300px;
+	padding-left: 45px;
+	color: #775076;
+}
+
+h2{
+	font-size: 42pt;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 40px;
+	color: #13546c;
+}
+
+
+/***WORK***/
+
+#work{
+	height: 1450px;
+	margin-top: -50px;
+}
+
+#work h3{
+	color: #869684;
+}
+
+#work h4{
+	text-align: left;
+	color: #869684;
+}
+
+#work p{
+	color: #869684;
+}
+
+#work a{
+	text-decoration: none;
+	color: #869684;
+}
+
+.pic{
+	width: 598px;
+	float: left;
+	border: #b7b7b7 solid 1px;
+}
+
+.section-one{
+	padding-bottom: 450px;
+}
+
+#rogue-right{
+	float: left;
+}
+
+.section-two{
+	padding-bottom: 450px;
+}
+
+#jubilee-right{
+	float: left;
+}
+
+#manifesto-right{
+	float: left;
+}
+
+
+/***ABOUT***/
+
+#about{
+	height: 650px;
+	background: #869684;
+	margin-top: -50px;
+}
+
+#about h3{
+	color: white;
+	margin-bottom: 35px;
+}
+
+#about h4{
+	color: white;
+}
+
+#about p{
+	color: white;
+}
+
+#me-pic{
+	width: 510px;
+	margin: 0px 25px 0px 40px;
+	float: left;
+}
+
+#me-info{
+	float: left;
+}
+
+
+/***CONTACT***/
+
+#contact{
+	height: 400px;
+	background: #13546c;
+	margin-top: -50px;
+}
+
+#contact h4{
+	text-align: center;
+	color: white;
+	padding: 0px;
+}
+
+#contact h3{
+	color: white;
+	text-align: center;
+}
+
+#contact p{
+	color: white;
+	text-align: center;
+	padding: 0px;
+	line-height: 12px;
+}
+
+#email{
+	font-size: 18px;
+}
+
+#contact a{
+	text-decoration: none;
+	color: white;
+}
+
+.icon{
+	width: 40px;
+}
+
+#contact ul{
+	list-style: none;
+}
+
+#contact ul li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#fb{
+	padding-left: 75px;
+}
+
+#copyright{
+	font-size: 12px;
+	margin-top: 300px;
+}

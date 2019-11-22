@@ -1,0 +1,227 @@
+/***header-portfolio***/
+
+.full-width{
+	width: 1200px;
+}
+
+#header-portfolio{
+	background: url('../img/succulents-header.jpg');
+	background-size: cover;
+	width: 1200px;
+	height: 379px;
+	margin: auto;
+}
+
+#header-portfolio h1{
+	font-family: 'Roboto Slab', sans-serif;
+	color: #775076;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 100px;
+	text-transform: none;
+}
+
+#header-portfolio h2{
+	font-family: 'Roboto', sans-serif;
+	color: #13546c;
+	font-size: 46px;
+	font-weight: normal;
+	line-height: 20px;
+	padding-left: 100px;
+}
+
+#header-portfolio h3{
+	font-family: 'Roboto', sans-serif;
+	color: #13546c;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 100px;
+}
+
+#header-portfolio a{
+	font-family: 'Roboto Slab', sans-serif;
+	color: #775076;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/***base styles***/
+@font-face{
+font-family: 'Wisdom Script';
+src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	border: 3px black solid;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+h1, h3, h4{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 18px;
+}
+
+h4{
+	font-size: 12px;
+}
+
+p{
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 30px;
+}
+/****HEADER****/
+
+header{
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1{
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header h1 span{
+	color: #77a466;
+}
+
+header nav{
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul a{
+	text-decoration: none;
+	color: #77a466;
+}
+/****TOP-SECTION & BOTTOM-SECTION****/
+
+.top-section, .bottom-section{
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image{
+	height: auto;
+	float: left;
+}
+
+.main-image img{
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title{
+	height: auto;
+	float: left;
+}
+
+.main-title h3{
+	padding: 5px 0;
+	color: #77a466;
+	text-align: left;
+}
+
+.main-title p{
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+/****SECTIONS-ONE-TWO-THREE****/
+
+.section-one, .section-two, .section-three{
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #dedbdc;
+}
+
+.section-one h4{
+	padding: 10px 0;
+}
+
+.section-two h4, .section-three h4{
+	padding: 10px 30px;
+}
+
+.section-two{
+	border-left: 1px solid #dedbdc;
+	border-right: 1px solid #dedbdc;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+}
+
+.menu li{
+	padding: 10px 0;
+	color: #77a466;
+}
+
+.reviews{
+	color: 333;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.address{
+	font-size: 16px;
+	line-height: 21px;
+}
+
+/****FOOTER****/
+
+footer{
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	height: 50px;
+	border-top: 3px solid #dedbdc;
+	clear: both;
+}
+
+footer span{
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	font-size: 14px;
+	color: #77a466;
+	letter-spacing: 1px;
+}
